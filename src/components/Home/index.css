@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ipl-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.home-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    justify-content: center;
+  }
+
+  .app-home-bg-container{
+    padding: 30px;
+  }
+
+  .ipl-logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo-name {
+    font-size: 40px;
+  }
+}
